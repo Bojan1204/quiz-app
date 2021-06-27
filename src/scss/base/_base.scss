@@ -1,0 +1,38 @@
+
+@viewport { width: device-width; }
+
+html {
+  background-color: $color-background;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+* {
+  &:before,
+  &:after { box-sizing: inherit; }
+}
+
+
+
+a {
+  background: transparent;
+  color: $color-link;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-display;
+  font-weight: normal;
+}
+
